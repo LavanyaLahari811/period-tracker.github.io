@@ -1,0 +1,13 @@
+.shop_pads{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    .pads{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 120px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+}

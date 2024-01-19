@@ -1,0 +1,33 @@
+.shop-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  width: 80%;
+  color: #fff;
+
+  #cart {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .search-bar {
+    margin-left: 200px;
+    flex-grow: 1;
+
+    #search{
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+    }
+  }
+
+  #user-avatar {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}

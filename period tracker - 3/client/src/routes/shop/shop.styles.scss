@@ -1,0 +1,16 @@
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-around;
+  padding: 20px;
+
+  .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 14%;
+    margin-right: 100px;
+  }
+}
