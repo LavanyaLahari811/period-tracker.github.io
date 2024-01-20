@@ -1,10 +1,15 @@
 import "./shop-navbar.styles.scss";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const ShopNavbar = ({ onSearch }) => {
   const handleChange = (event) => {
     onSearch(event.target.value);
   };
+  const navigate=useNavigate();
+
+  const navigateTo=()=>{
+      navigate("/checkout");
+  }
 
   return (
     <div className="shop-navbar">
@@ -12,9 +17,7 @@ const ShopNavbar = ({ onSearch }) => {
         <input id="search" type="text" placeholder="Search..." onChange={handleChange}/>
       </div>
 
-      <Link to={"/cart"}>
-        <img id="cart" src="./Trolley cart.png" alt="cart" />
-      </Link>
+      <button id="cart" onClick={navigateTo}>Check-Cart</button>
 
       <img id="user-avatar" src="./user.png" alt="user-avatar" />
     </div>
