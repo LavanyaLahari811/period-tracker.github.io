@@ -1,7 +1,10 @@
 import "./shop_card.styles.scss";
 
 
-const ShopCard = ({product}) => {
+const ShopCard = ({product,onAddToCheckout}) => {
+  const addingToCheckout=()=>{
+    onAddToCheckout(product);
+  }
   
   return (
     <div className="shopcard">
@@ -13,7 +16,7 @@ const ShopCard = ({product}) => {
         <p>{product.price}</p>
         <p>{product.other_info}</p>
       </div>
-      <button class="add-to-cart">Add to Cart</button>
+      <button class="add-to-cart" onClick={addingToCheckout}>Add to Cart</button>
     </div>
   );
 };
