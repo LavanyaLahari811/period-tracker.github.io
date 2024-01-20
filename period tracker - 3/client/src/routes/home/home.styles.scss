@@ -1,8 +1,9 @@
 .home {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 80px;
+  justify-content: space-around;
+  gap: 200px;
+  margin-top: 120px;
   .content {
     margin-right: 50px;
     display: flex;
@@ -10,10 +11,10 @@
 
     @keyframes slideInLeft {
       0% {
-        transform: translateX(-700px);
+        transform: translateX(-1000px);
       }
       80% {
-        transform: translateX(0);
+        transform: translateX(0px);
       }
       100% {
         transform: translateX(-25px);
@@ -32,23 +33,26 @@
 
     h1 {
       font-size: 35px;
-      animation: slideInLeft 1s ease-in 0s 1 normal both;
+      animation: slideInLeft 2s ease-in 0s 1 normal both;
+      margin-left: -400px; 
     }
     h3 {
       font-weight: 400;
-      animation: slideInLeft 1s ease-in 1s 1 normal both;
+      animation: slideInLeft 2s ease-in 1s 1 normal both;
+      margin-left: -400px; 
     }
     button {
       opacity: 0;
       animation: fadeInUp 1s ease-in-out 2s 1 normal forwards;
       margin-top: 40px;
       border-radius: 5px;
+      margin-left: -400px; 
       box-shadow: -5px 10px 10px rgba(157, 111, 181, 0.3);
       font-weight: 100;
       font-size: 15px;
       border: 1px solid #f18cc9;
       background-color: #f18cc9;
-      
+
       padding: 15px 34px;
       width: 226px;
       height: 56px;
@@ -63,9 +67,16 @@
     opacity: 1;
   }
 }
-.img img {
-  height: 400px;
-  width: 500px;
-  opacity: 0;
-  animation: becomeVisible 1s ease-in-out 3s 1 normal forwards;
+.img {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-left: 100px;
+
+  img {
+    width: 500px;
+    opacity: 0;
+    animation: becomeVisible 2s ease-in-out 3s 1 normal forwards;
+  }
 }
