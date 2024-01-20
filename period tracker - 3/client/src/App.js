@@ -12,6 +12,7 @@ import TamponShop from "./routes/shopping_routes/shop_tampons/tampons.route";
 import CupShop from "./routes/shopping_routes/shop_cups/shop_cups.route";
 import PantyShop from "./routes/shopping_routes/shop_panties/shop_panty.route";
 import PainkillerShop from "./routes/shopping_routes/shop_painkillers/shop_painkillers.route";
+import CheckOut from "./routes/checkout/checkout.route";
 
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/buy/cup" element={<CupShop/>}/>
           <Route path="/buy/panty" element={<PantyShop/>}/>
           <Route path="/buy/painkiller" element={<PainkillerShop/>}/>
+          <Route path="/checkout" element={<CheckOut/>}/>
         </Routes>
       </Router>
     </div>
