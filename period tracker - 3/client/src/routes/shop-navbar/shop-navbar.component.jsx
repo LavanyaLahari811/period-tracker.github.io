@@ -17,7 +17,7 @@ const ShopNavbar = ({ onSearch }) => {
         <input id="search" type="text" placeholder="Search..." onChange={handleChange}/>
       </div>
 
-      <button id="cart" onClick={navigateTo}>Check-Cart</button>
+      <button id="cart" onClick={navigateTo}>Check-out</button>
 
       <img id="user-avatar" src="./user.png" alt="user-avatar" />
     </div>

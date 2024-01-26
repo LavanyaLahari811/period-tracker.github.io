@@ -1,9 +1,9 @@
 import "./shop_card.styles.scss";
 
 
-const ShopCard = ({product,onAddToCheckout}) => {
-  const addingToCheckout=()=>{
-    onAddToCheckout(product);
+const ShopCard = ({product}) => {
+  const addToCheckout=()=>{
+    
   }
   
   return (
@@ -13,10 +13,10 @@ const ShopCard = ({product,onAddToCheckout}) => {
       <div class="product-name">{product.name}</div>
       <div class="product-info">
         <p>{product.size}</p>
-        <p>{product.price}</p>
+        <p>Rs. {product.price}</p>
         <p>{product.other_info}</p>
       </div>
-      <button class="add-to-cart" onClick={addingToCheckout}>Add to Cart</button>
+      <button class="add-to-cart" onClick={addToCheckout}>Add to Cart</button>
     </div>
   );
 };

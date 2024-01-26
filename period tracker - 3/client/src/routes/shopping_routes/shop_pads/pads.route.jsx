@@ -11,7 +11,7 @@ const products = [
     image: tamponImageUrl,
     name: "Whisper Ultra Soft Regular",
     size: "Regular",
-    price: "Rs. 150",
+    price: 150,
     other_info: "With wings, 30 pads per pack",
   },
   {
@@ -19,7 +19,7 @@ const products = [
     image: "whisper_image_url",
     name: "Whisper Ultra Soft Super",
     size: "Super",
-    price: "Rs. 180",
+    price: 180,
     other_info: "With wings, 28 pads per pack",
   },
   {
@@ -27,7 +27,7 @@ const products = [
     image: "stayfree_image_url",
     name: "Stayfree Dry Max Super",
     size: "Super",
-    price: "Rs. 120",
+    price: 120,
     other_info: "Odor control, 32 pads per pack",
   },
   {
@@ -35,7 +35,7 @@ const products = [
     image: "stayfree_image_url",
     name: "Stayfree Dry Max Overnight",
     size: "Overnight",
-    price: "Rs. 140",
+    price: 140,
     other_info: "Extra long, 28 pads per pack",
   },
   {
@@ -43,7 +43,7 @@ const products = [
     image: "sofy_image_url",
     name: "Sofy Side Walls Regular",
     size: "Regular",
-    price: "Rs. 130",
+    price: 130,
     other_info: "Anti-leakage barriers, 28 pads per pack",
   },
   {
@@ -51,7 +51,7 @@ const products = [
     image: "sofy_image_url",
     name: "Sofy Bodyfit Overnight",
     size: "Overnight",
-    price: "Rs. 160",
+    price: 160,
     other_info: "Extra absorbent, 24 pads per pack",
   },
   {
@@ -59,7 +59,7 @@ const products = [
     image: "paree_image_url",
     name: "Paree Sanitary Pads Regular",
     size: "Regular",
-    price: "Rs. 110",
+    price:110,
     other_info: "Soft cover, 36 pads per pack",
   },
   {
@@ -67,7 +67,7 @@ const products = [
     image: "paree_image_url",
     name: "Paree Comfort Maxi Nights",
     size: "Night",
-    price: "Rs. 130",
+    price: 130,
     other_info: "Extra long, 32 pads per pack",
   },
   {
@@ -75,7 +75,7 @@ const products = [
     image: "vwash_image_url",
     name: "Vwash Wow Ultra Thin Regular",
     size: "Regular",
-    price: "Rs. 180",
+    price: 180,
     other_info: "Ultra-thin, 24 pads per pack",
   },
   {
@@ -83,7 +83,7 @@ const products = [
     image: "vwash_image_url",
     name: "Vwash Wow Ultra Thin XL",
     size: "Extra Large",
-    price: "Rs. 200",
+    price: 200,
     other_info: "Extra long, 20 pads per pack",
   },
 ];

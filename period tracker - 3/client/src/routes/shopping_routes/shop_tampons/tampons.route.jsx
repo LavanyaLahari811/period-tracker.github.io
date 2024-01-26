@@ -9,7 +9,7 @@ const products=[
       "image": "tampax_image_url",
       "name": "Tampax Pearl Regular",
       "size": "Regular",
-      "price": "Rs. 180",
+      "price": 180,
       "other_info": "Plastic applicator, 36 tampons per box"
     },
     {
@@ -17,7 +17,7 @@ const products=[
       "image": "ob_image_url",
       "name": "OB Pro Comfort Regular",
       "size": "Regular",
-      "price": "Rs. 150",
+      "price": 150,
       "other_info": "No applicator, 40 tampons per box"
     },
     {
@@ -25,7 +25,7 @@ const products=[
       "image": "sirona_image_url",
       "name": "Sirona Premium Applicator Tampons",
       "size": "Super",
-      "price": "Rs. 200",
+      "price": 200,
       "other_info": "Biodegradable applicator, 32 tampons per box"
     },
     {
@@ -33,7 +33,7 @@ const products=[
       "image": "veeda_image_url",
       "name": "Veeda Natural Cotton Tampons",
       "size": "Regular",
-      "price": "Rs. 160",
+      "price": 160,
       "other_info": "Chemical-free, 30 tampons per box"
     },
     {
@@ -41,7 +41,7 @@ const products=[
       "image": "plush_image_url",
       "name": "Plush Ultra Thin Tampons",
       "size": "Regular",
-      "price": "Rs. 190",
+      "price": 190,
       "other_info": "Silky smooth, 28 tampons per box"
     },
     {
@@ -49,7 +49,7 @@ const products=[
       "image": "organyc_image_url",
       "name": "Organyc Organic Cotton Tampons",
       "size": "Super",
-      "price": "Rs. 220",
+      "price": 220,
       "other_info": "Hypoallergenic, 24 tampons per box"
     },
     {
@@ -57,7 +57,7 @@ const products=[
       "image": "carmesi_image_url",
       "name": "Carmesi Organic Tampons",
       "size": "Regular",
-      "price": "Rs. 180",
+      "price": 180,
       "other_info": "Biodegradable applicator, 32 tampons per box"
     },
     {
@@ -65,7 +65,7 @@ const products=[
       "image": "heyday_image_url",
       "name": "Heyday Compact Applicator Tampons",
       "size": "Regular",
-      "price": "Rs. 210",
+      "price": 210,
       "other_info": "Smooth insertion, 30 tampons per box"
     },
     {
@@ -73,7 +73,7 @@ const products=[
       "image": "peesafe_image_url",
       "name": "Pee Safe Organic Cotton Tampons",
       "size": "Super",
-      "price": "Rs. 240",
+      "price": 240,
       "other_info": "Chemical-free, 26 tampons per box"
     },
     {
@@ -81,7 +81,7 @@ const products=[
       "image": "lola_image_url",
       "name": "Lola Compact Tampons",
       "size": "Regular",
-      "price": "Rs. 200",
+      "price": 200,
       "other_info": "BPA-free plastic applicator, 28 tampons per box"
     }
   ]

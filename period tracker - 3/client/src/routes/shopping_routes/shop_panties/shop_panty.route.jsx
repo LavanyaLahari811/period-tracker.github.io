@@ -9,7 +9,7 @@ const products = [
     image: "adira_image_url",
     name: "Adira Period Panty",
     size: "Medium",
-    price: "Rs. 250",
+    price: 250,
     other_info: "Absorbent, leak-proof, pack of 3",
   },
   {
@@ -17,7 +17,7 @@ const products = [
     image: "clovia_image_url",
     name: "Clovia Leak-Proof Hipster Panty",
     size: "Large",
-    price: "Rs. 299",
+    price: 299,
     other_info: "Comfortable, leak-resistant, pack of 2",
   },
   {
@@ -25,7 +25,7 @@ const products = [
     image: "nua_image_url",
     name: "Nua Period Panties",
     size: "Small",
-    price: "Rs. 199",
+    price: 199,
     other_info: "Soft, breathable, pack of 5",
   },
   {
@@ -33,7 +33,7 @@ const products = [
     image: "plush_image_url",
     name: "Plush Period Underwear",
     size: "XL",
-    price: "Rs. 349",
+    price: 349,
     other_info: "High absorbency, seamless, pack of 1",
   },
   {
@@ -41,7 +41,7 @@ const products = [
     image: "laceage_image_url",
     name: "LaceAge Menstrual Panty",
     size: "Medium",
-    price: "Rs. 279",
+    price: 279,
     other_info: "Stylish, leak-proof, pack of 4",
   },
 ];

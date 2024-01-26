@@ -10,7 +10,7 @@ const products = [
     name: "Crocin Pain Relief",
     type: "Tablet",
     strength: "500mg",
-    price: "Rs. 50",
+    price: 50,
     other_info: "Pack of 15 tablets",
   },
   {
@@ -19,7 +19,7 @@ const products = [
     name: "Saridon Advance",
     type: "Tablet",
     strength: "400mg",
-    price: "Rs. 60",
+    price: 60,
     other_info: "Pack of 10 tablets",
   },
   {
@@ -28,7 +28,7 @@ const products = [
     name: "Combiflam Plus",
     type: "Tablet",
     strength: "325mg",
-    price: "Rs. 70",
+    price: 70,
     other_info: "Pack of 20 tablets",
   },
   {
@@ -37,7 +37,7 @@ const products = [
     name: "Dolo 650",
     type: "Tablet",
     strength: "650mg",
-    price: "Rs. 40",
+    price: 40,
     other_info: "Pack of 30 tablets",
   },
   {
@@ -46,7 +46,7 @@ const products = [
     name: "Calpol Pain Relief",
     type: "Suspension",
     strength: "120mg/5ml",
-    price: "Rs. 80",
+    price: 80,
     other_info: "Bottle of 100ml",
   },
   {
@@ -55,7 +55,7 @@ const products = [
     name: "Meftal Spas",
     type: "Tablet",
     strength: "250mg",
-    price: "Rs. 55",
+    price: 55,
     other_info: "Pack of 25 tablets",
   },
   {
@@ -64,7 +64,7 @@ const products = [
     name: "Ponstan",
     type: "Capsule",
     strength: "500mg",
-    price: "Rs. 90",
+    price: 90,
     other_info: "Pack of 12 capsules",
   },
   {
@@ -73,7 +73,7 @@ const products = [
     name: "Naproxen",
     type: "Tablet",
     strength: "250mg",
-    price: "Rs. 65",
+    price:65,
     other_info: "Pack of 15 tablets",
   },
   {
@@ -82,7 +82,7 @@ const products = [
     name: "Ibugesic Plus",
     type: "Tablet",
     strength: "400mg",
-    price: "Rs. 75",
+    price: 75,
     other_info: "Pack of 18 tablets",
   },
   {
@@ -91,7 +91,7 @@ const products = [
     name: "Zerodol-P",
     type: "Tablet",
     strength: "100mg",
-    price: "Rs. 85",
+    price: 85,
     other_info: "Pack of 14 tablets",
   },
 ];
