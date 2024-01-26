@@ -10,7 +10,7 @@ router.post("/info",async(req,res)=>{
     
     if(!user_info){
         
-    const newInfo=new inputModel({user_id,start_date:date,cycle_length,periodHistory,symptomTrackingnext_date});
+    const newInfo=new inputModel({user_id,start_date:date,cycle_length,periodHistory,symptomTracking,next_date});
     await newInfo.save();
     }else{
         const update_info=await inputModel.updateOne({ _id: user_info }, 
